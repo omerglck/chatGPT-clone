@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT</title>
+    <link rel="shortcut icon" href="images/chatbot.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Chat Container -->
+    <div class="chat-container"></div>
+
+    <!--typing container-->
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea
+            id="chat-input"
+            placeholder="Enter a propmt here"
+            required
+          ></textarea>
+          <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-outlined"
+            >light_mode</span
+          >
+          <span id="delete-btn" class="material-symbols-outlined">delete</span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
